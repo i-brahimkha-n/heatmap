@@ -1,0 +1,26 @@
+{
+  "name": "heatmap",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HeatMap - harmonized MODIS + VIIRS burning activity calendar for Pakistan (NASA Space Apps Challenge)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/core.test.mjs"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-globe.gl": "^2.27.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite": "^5.4.10"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
